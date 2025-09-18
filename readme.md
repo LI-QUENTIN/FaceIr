@@ -1,4 +1,23 @@
 # 人脸识别系统
+## 环境配置
+
+建议预先装 Anaconda，否则 dlib 库冲突很难处理
+
+```shell
+pip install opencv-python
+pip install cmake
+pip install numpy
+```
+
+管理员打开终端，输入：`conda install -c conda-forge dlib`
+
+接着切回普通终端：
+
+```shell
+pip install dlib
+pip install face_recognition
+pip install PyQt5
+```
 
 ## 技术栈
 
